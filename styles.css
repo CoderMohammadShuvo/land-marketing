@@ -669,6 +669,92 @@ body {
   width: 600px;
   height: 1168.57px;
 }
+
+.award{
+  width: 1140px;
+  height: 1200px;
+
+  margin-top: 100px;
+}
+.awardHeading {
+  width: 100%;
+  display: flex;
+  height: 300px;
+  align-items: end;
+  justify-content: space-around;
+  
+}
+.awardHeadingLeft h3{
+  font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 70px;
+/* or 350% */
+font-family: QuicksandBold;
+letter-spacing: 0.17em;
+margin-bottom: 0;
+color: #E27E52;
+}
+.awardHeadingLeft h1{
+  font-style: normal;
+font-weight: 800;
+font-size: 51px;
+line-height: 63px;
+/* or 124% */
+margin-top: 0;
+font-family: GilroyExtraBold;
+color: #000000;
+
+}
+.awardMain {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.awardContent{
+  width: 239.73px;
+height: 606px;
+margin-top: 100px;
+}
+.awardContentHead{
+  width: 100%;
+  height: 103px;
+  background: #1B1724;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.awardContentHead p{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  /* or 350% */
+  font-family: QuicksandBold;
+
+
+  color: white;
+
+}
+.awardContent img{
+  width: 100%;
+  height: 503px;
+}
+.one{
+  margin-top: 200px;
+}
+
+.ourBlog{
+  width: 100%;
+  height: 931px;
+  background: url('./assets/Group\ 12534.png');
+  background-size: 100% 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: #0F0D14;
+  margin-top: 100px;
+}
 @media screen and (max-width: 768px) {
   body {
     width: 100%;
