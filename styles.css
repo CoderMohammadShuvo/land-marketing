@@ -1,0 +1,794 @@
+@font-face {
+  font-family: QuickSandMedium;
+  src: url("./fonts/Quicksand-Medium.ttf");
+}
+@font-face {
+  font-family: QuickSandSemiBold;
+  src: url("./fonts/quicksand-semi-bold.ttf");
+}
+@font-face {
+  font-family: QuickSandRegular;
+  src: url("./fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: QuicksandBold;
+  src: url("./fonts/Quicksand_Bold.otf");
+}
+@font-face {
+  font-family: GilroyExtraBold;
+  src: url("./fonts/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf");
+}
+@font-face {
+  font-family: GilroyRegular;
+  src: url("./fonts/Quicksand-Regular.ttf");
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: url("./assets/Group\ 12522.png"), url("./assets/Group\ 12530.png");
+  background-position: left top, left 380vh;
+  background-size: 100% 300vh, 100% 350vh;
+  background-repeat: no-repeat;
+}
+.navbar {
+  width: 1160px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 205px;
+  height: 91px;
+}
+.navButton {
+  width: 139px;
+  height: 50px;
+  background: #ff7433;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: QuickSandSemiBold;
+  font-weight: 600;
+  font-size: 14px;
+}
+.navOption a {
+  text-decoration: none;
+  color: white;
+  font-family: QuickSandMedium;
+  margin: 0 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.heroSection {
+  width: 100%;
+  height: 80vh;
+  justify-content: end;
+  display: flex;
+}
+.heroRight {
+  height: 100%;
+  width: 580px;
+}
+.heroRight h1 {
+  font-family: GilroyExtraBold;
+  font-style: normal;
+  font-weight: 800;
+
+  font-size: 66px;
+  color: #ecd8bd;
+  margin-top: 60px;
+}
+.heroRight p {
+  font-family: GilroyRegular;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 37px;
+}
+.heroLeft {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroLeftImage {
+  width: 100%;
+  height: 80%;
+}
+.heroLeftButtonArea {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+
+  display: flex;
+  align-items: center;
+}
+.ourServiceButton {
+  width: 192px;
+  height: 62px;
+  background: #ffcf54;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.ourServiceButton h3 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1b1724;
+  font-family: QuickSandSemiBold;
+}
+.ourServiceButton img {
+  width: 16.97px;
+  height: 15px;
+  margin-left: 20px;
+}
+#viewProject {
+  background: transparent;
+}
+#viewProject h3 {
+  color: white;
+}
+#viewProject img {
+  height: 13px;
+  width: 9px;
+}
+.about {
+  height: 80vh;
+  width: 1160px;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.aboutLeft {
+  width: 30%;
+}
+#aboutLEftImage {
+  width: 90%;
+  height: 50%;
+}
+
+#aboutLeftSecondImage {
+  width: 100%;
+  height: 30%;
+  margin-top: 20%;
+}
+.aboutRight {
+  width: 60%;
+}
+.aboutRightTop {
+  width: 70%;
+
+  height: 200px;
+  margin-left: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutMain h1 {
+  font-family: QuicksandBold;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 22px;
+  /* or 52% */
+
+  color: #ffffff;
+}
+
+.aboutMain p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  /* or 141% */
+
+  font-family: QuickSandMedium;
+  color: #eee2d4;
+}
+.aboutRightLast {
+  width: 100%;
+  height: 500px;
+
+  background: url("./assets/Group\ 12511.png");
+  background-position: right top;
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+}
+.aboutRightLast h4 {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  /* or 126% */
+
+  font-family: QuicksandBold;
+  color: #f5d47c;
+}
+#welCOmeLand {
+  font-family: QuickSandSemiBold;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 24px;
+  /* or 126% */
+
+  margin-left: 29px;
+  color: #ffffff;
+}
+.aboutRightLast p {
+  font-family: QuickSandRegular;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 34px;
+  /* or 200% */
+  margin-right: 20px;
+  margin-bottom: 60px;
+  color: #ffffff;
+}
+.ourProjects {
+  width: 1160px;
+  height: 90vh;
+}
+.ourProjects h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 70px;
+  /* or 350% */
+
+  letter-spacing: 0.17em;
+
+  color: #ffcf54;
+  font-family: QuicksandBold;
+  margin-bottom: 0;
+}
+.ourProjects h1 {
+  margin-top: 0;
+  font-family: GilroyExtraBold;
+  font-weight: 800;
+  font-size: 51px;
+  line-height: 70px;
+  /* or 137% */
+
+  color: #ecd8bd;
+}
+.ourProjectsMain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10vh;
+}
+.ourProjectsMain img {
+  width: 304.77px;
+  height: 353px;
+}
+
+.exploreSociety {
+  height: 90vh;
+  width: 1160px;
+  margin-top: 10vh;
+}
+.exploreSociety h3 {
+  font-family: QuicksandBold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 70px;
+  /* or 350% */
+
+  letter-spacing: 0.17em;
+
+  color: #e27e52;
+  margin-bottom: 0;
+}
+.exploreSociety h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 51px;
+  line-height: 70px;
+  /* or 137% */
+  font-family: GilroyExtraBold;
+  margin-top: 0;
+  color: #000000;
+}
+.exploreMain {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.exploreMainContent {
+  width: 209px;
+  margin-top: 00px;
+}
+.exploreMainContent h5 {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  /* identical to box height, or 126% */
+
+  font-family: QuicksandBold;
+  color: #000000;
+  margin-bottom: 0;
+}
+.exploreMainContent h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  font-family: QuickSandSemiBold;
+  margin-top: 10px;
+  color: #e27e52;
+  margin-bottom: 10px;
+}
+.exploreMainContent img {
+  width: 209px;
+  height: 209px;
+}
+.exploreMainContent p {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  /* or 182% */
+  font-family: GilroyRegular;
+
+  color: #000000;
+}
+#firstExplore {
+  margin-top: 50px;
+}
+#secondExplore {
+  margin-top: 150px;
+}
+#exploreThird {
+  margin-top: 200px;
+}
+.services {
+  width: 1160px;
+  height: 100vh;
+}
+
+.serviceHeading {
+  margin-top: 20vh;
+}
+.serviceHeadingLeft h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 70px;
+  /* or 350% */
+
+  letter-spacing: 0.17em;
+  font-family: QuicksandBold;
+  color: #ffcf54;
+  margin-bottom: 0;
+}
+
+.serviceHeadingLeft h1 {
+  font-family: GilroyExtraBold;
+  font-weight: 800;
+  font-size: 51px;
+  line-height: 70px;
+  /* or 137% */
+  margin-top: 0px;
+
+  color: #ecd8bd;
+}
+.serviceHeading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.serviceHeading p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  /* or 189% */
+  font-family: QuickSandSemiBold;
+  text-align: right;
+  margin-top: 150px;
+  color: #ffffff;
+}
+
+.serviseMain {
+  width: 100%;
+  height: 379px;
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.serviseContent {
+  width: 33.33%;
+  border: 1px solid rgba(255, 255, 255, 0.315);
+}
+.serviseContent img {
+  height: 47px;
+  width: 37px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.serviseContent h4 {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 24px;
+  /* identical to box height, or 126% */
+
+  font-family: QuickSandSemiBold;
+  color: #ffffff;
+  margin-left: 40px;
+}
+.serviseContent p {
+  font-family: QuickSandRegular;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+
+  margin: 0px 40px;
+  color: #ffffff;
+}
+
+.testimonial{
+  width: 1127px;
+height: 360px;
+background: url('./assets/Group\ 12533.png');
+background-size: 100% 100%;
+background-position: left top;
+background-repeat: no-repeat;
+margin-top: 50px;
+display: flex;
+
+justify-content: center;
+}
+.testimonial img{
+ height: 90px;
+ margin-top: 100px;
+ margin-left: 50px;
+ margin-right: 80px;
+}
+.testimonial h2{
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 39px;
+  /* or 150% */
+  font-family: GilroyExtraBold;
+  margin-top: 80px;
+  color: #000000;
+  
+}
+.testimonial p{
+  font-weight: 500;
+font-size: 19px;
+line-height: 32px;
+/* or 168% */
+font-family: QuickSandMedium;
+margin-top: 80px;
+color: #000000;
+
+}
+.sheduleMeet{
+  width: 231px;
+height: 62px;
+background: #FFCF54;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+margin-top: 80px;
+}
+.sheduleMeet h6{
+  font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 34px;
+
+
+font-family: QuicksandBold;
+color: #1B1724;
+
+}
+#line{
+  height: 20px;
+}
+#calender{
+  width: 30px;
+  height: 30px;
+}
+.clientReview{
+  width: 1160px;
+  height: 800px;
+}
+
+@media screen and (max-width:768px){
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("./assets/Group\ 12522.png"), url("./assets/Group\ 12530.png");
+    background-position: left top, left 510vh;
+    background-size: 100% 300vh, 100% 370vh;
+    background-repeat: no-repeat;
+  }
+  .navbar{
+    display: none;
+  }
+  .heroSection{
+    width: 350px;
+    flex-direction: column;
+  }
+  .heroRight {
+    height: 100%;
+    width: 100%;
+}
+.heroRight h1 {
+  font-family: GilroyExtraBold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  color: #ecd8bd;
+  margin-top: 60px;
+}
+.heroSection {
+ 
+  height: 501px
+;
+  justify-content: end;
+  display: flex;
+}
+.heroLeft {
+  width: 94%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  height: 839px;
+    width: 350px;
+    display: flex;
+    margin-top: -4px;
+    justify-content: start;
+    flex-direction: column;
+}
+.aboutLeft {
+  width: 100%;
+}
+.aboutRightTop {
+  width: 100%;
+  height: 125px;
+  margin-left: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutMain p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: QuickSandMedium;
+  color: #eee2d4;
+}
+.aboutRight {
+  width: 100%;
+}
+.aboutMain h1 {
+  font-family: QuicksandBold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.aboutRightLast h4 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: QuicksandBold;
+  color: #f5d47c;
+}
+
+#welCOmeLand {
+  font-family: QuickSandSemiBold;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+  margin-left: 29px;
+  color: #ffffff;
+}
+.aboutRightLast p {
+  font-family: QuickSandRegular;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+#aboutLeftSecondImage {
+  width: 100%;
+  height: 30%;
+  margin-top: 20%;
+  display: none;
+}
+
+#aboutLEftImage {
+  width: 98%;
+  height: 85%;
+}
+.heroLeftImage {
+  width: 100%;
+  height: 80%;
+  display: none;
+}
+.ourProjects {
+  width: 350px;
+  height: 1000px;
+ 
+}
+
+.ourProjectsMain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  flex-wrap: wrap;
+}
+
+.ourProjectsMain img {
+  width: 212.77px;
+  height: 261px;
+  margin-bottom: 20px;
+}
+.ourProjectsMain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.ourProjects h3 {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.17em;
+  color: #ffcf54;
+  font-family: QuicksandBold;
+  margin-bottom: 0;
+  text-align: center;
+}
+.ourProjects h1 {
+  margin-top: 0;
+  font-family: GilroyExtraBold;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 70px;
+  color: #ecd8bd;
+  text-align: center;
+}
+.exploreSociety {
+  height: 100%;
+  width: 350px;
+  margin-top: 10vh;
+
+}
+.exploreSociety h3 {
+  font-family: QuicksandBold;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.17em;
+  color: #e27e52;
+  margin-bottom: 0;
+  text-align: center;
+}
+.exploreSociety h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 53px;
+  font-family: GilroyExtraBold;
+  margin-top: 14px;
+  color: #000000;
+}
+.exploreMain {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+#firstExplore {
+  margin-top: 0px;
+}
+#secondExplore {
+  margin-top: 0px;
+}
+
+#exploreThird {
+  margin-top: 0px;
+}
+.services {
+  width: 350px;
+  height: 1300px;
+}
+.serviceHeadingLeft h4 {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 2px;
+  letter-spacing: 0.17em;
+  font-family: QuicksandBold;
+  color: #ffcf54;
+  margin-bottom: 0;
+  text-align: center;
+}
+.serviceHeadingLeft h1 {
+  font-family: GilroyExtraBold;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 0px;
+  color: #ecd8bd;
+  margin-top: 40px;
+  text-align: center;
+}
+.serviceHeadingLeft h1 br{
+  display: none;
+}
+.serviceHeading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.serviceHeading {
+  margin-top: 50px;
+}
+.serviceHeading p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: QuickSandSemiBold;
+  text-align: center;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+.serviseMain {
+  width: 100%;
+  height: 379px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.serviseContent {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.314);
+}
+.testimonial {
+  width: 350px;
+  height: 234px;
+  background: url("./assets/Group\ 12533.png");
+  background-size: 100% 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+.serviseContent img {
+  height: 47px;
+  width: 37px;
+  margin-top: 21px;
+  margin-left: 40px;
+}
+}
